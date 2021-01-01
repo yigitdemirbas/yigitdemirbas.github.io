@@ -1,108 +1,165 @@
-// Custom Script
-// Developed by: Samson.Onna
-var customScripts = {
-    profile: function () {
-        // portfolio
-        if ($('.isotopeWrapper').length) {
-            var $container = $('.isotopeWrapper');
-            var $resize = $('.isotopeWrapper').attr('id');
-            // initialize isotope
-            $container.isotope({
-                itemSelector: '.isotopeItem',
-                resizable: false, // disable normal resizing
-                masonry: {
-                    columnWidth: $container.width() / $resize
-                }
-            });
-            $("a[href='#top']").click(function () {
-                $("html, body").animate({ scrollTop: 0 }, "slow");
-                return false;
-            });
-            $('.navbar-inverse').on('click', 'li a', function () {
-                $('.navbar-inverse .in').addClass('collapse').removeClass('in').css('height', '1px');
-            });
-            $('#filter a').click(function () {
-                $('#filter a').removeClass('current');
-                $(this).addClass('current');
-                var selector = $(this).attr('data-filter');
-                $container.isotope({
-                    filter: selector,
-                    animationOptions: {
-                        duration: 1000,
-                        easing: 'easeOutQuart',
-                        queue: false
-                    }
-                });
-                return false;
-            });
-            $(window).smartresize(function () {
-                $container.isotope({
-                    // update columnWidth to a percentage of container width
-                    masonry: {
-                        columnWidth: $container.width() / $resize
-                    }
-                });
-            });
-        }
-    },
-    fancybox: function () {
-        // fancybox
-        $(".fancybox").fancybox();
-    },
-    onePageNav: function () {
+// JavaScript Document
 
-        $('#mainNav').onePageNav({
-            currentClass: 'active',
-            changeHash: false,
-            scrollSpeed: 950,
-            scrollThreshold: 0.2,
-            filter: '',
-            easing: 'swing',
-            begin: function () {
-                //I get fired when the animation is starting
-            },
-            end: function () {
-                //I get fired when the animation is ending
-            },
-            scrollChange: function ($currentListItem) {
-                //I get fired when you enter a section and I pass the list item of the section
+$(window).load(function () {
+    "use strict";
+    // makes sure the whole site is loaded
+    $('#status').fadeOut(); // will first fade out the loading animation
+    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+    $('body').delay(350).css({
+        'overflow': 'visible'
+    });
+})
+
+$(document).ready(function () {
+    "use strict";
+
+    // scroll menu
+    var sections = $('.section'),
+        nav = $('.navbar-fixed-top,footer'),
+        nav_height = nav.outerHeight();
+
+    $(window).on('scroll', function () {
+        var cur_pos = $(this).scrollTop();
+
+        sections.each(function () {
+            var top = $(this).offset().top - nav_height,
+                bottom = top + $(this).outerHeight();
+
+            if (cur_pos >= top && cur_pos <= bottom) {
+                nav.find('a').removeClass('active');
+                sections.removeClass('active');
+
+                $(this).addClass('active');
+                nav.find('a[href="#' + $(this).attr('id') + '"]').addClass('active');
             }
         });
-    },
-    slider: function () {
-        $('#da-slider').cslider({
-            autoplay: true,
-            bgincrement: 0
-        });
-    },
-    owlSlider: function () {
-        var owl = $("#owl-demo");
-        owl.owlCarousel();
-        // Custom Navigation Events
-        $(".next").click(function () {
-            owl.trigger('owl.next');
-        })
-        $(".prev").click(function () {
-            owl.trigger('owl.prev');
-        })
-    },
-    bannerHeight: function () {
-        var bHeight = $(".banner-container").height();
-        $('#da-slider').height(bHeight);
-        $(window).resize(function () {
-            var bHeight = $(".banner-container").height();
-            $('#da-slider').height(bHeight);
-        });
-    },
-    init: function () {
-        customScripts.onePageNav();
-        customScripts.profile();
-        customScripts.fancybox();
-        customScripts.slider();
-        customScripts.owlSlider();
-        customScripts.bannerHeight();
+    });
+
+    nav.find('a').on('click', function () {
+        var $el = $(this),
+            id = $el.attr('href');
+
+        $('html, body').animate({
+            scrollTop: $(id).offset().top - nav_height + 2
+        }, 600);
+
+        return false;
+    });
+
+
+    // Menu opacity
+    if ($(window).scrollTop() > 80) {
+        $(".navbar-fixed-top").addClass("bg-nav");
+    } else {
+        $(".navbar-fixed-top").removeClass("bg-nav");
     }
-}
-$('document').ready(function () {
-    customScripts.init();
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 80) {
+            $(".navbar-fixed-top").addClass("bg-nav");
+        } else {
+            $(".navbar-fixed-top").removeClass("bg-nav");
+        }
+    });
+
+
+
+    // Parallax
+    var parallax = function () {
+        $(window).stellar();
+    };
+
+    $(function () {
+        parallax();
+    });
+
+    // AOS
+    AOS.init({
+        duration: 1200,
+        once: true,
+        disable: 'mobile'
+    });
+
+    //  isotope
+    $('#projects').waitForImages(function () {
+        var $container = $('.portfolio_container');
+        $container.isotope({
+            filter: '*',
+        });
+
+        $('.portfolio_filter a').click(function () {
+            $('.portfolio_filter .active').removeClass('active');
+            $(this).addClass('active');
+
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+                filter: selector,
+                animationOptions: {
+                    duration: 500,
+                    animationEngine: "jquery"
+                }
+            });
+            return false;
+        });
+
+    });
+
+    //animatedModal
+    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+
+    // Contact Form 	
+
+    // validate contact form
+    $(function () {
+        $('#contact-form').validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 2
+                },
+                email: {
+                    required: true
+                },
+                phone: {
+                    required: false
+                },
+                message: {
+                    required: true
+                }
+
+            },
+            messages: {
+                name: {
+                    required: "This field is required",
+                    minlength: "your name must consist of at least 2 characters"
+                },
+                email: {
+                    required: "This field is required"
+                },
+                message: {
+                    required: "This field is required"
+                }
+            },
+            submitHandler: function (form) {
+                $(form).ajaxSubmit({
+                    type: "POST",
+                    data: $(form).serialize(),
+                    url: "process.php",
+                    success: function () {
+                        $('#contact :input').attr('disabled', 'disabled');
+                        $('#contact').fadeTo("slow", 1, function () {
+                            $(this).find(':input').attr('disabled', 'disabled');
+                            $(this).find('label').css('cursor', 'default');
+                            $('#success').fadeIn();
+                        });
+                    },
+                    error: function () {
+                        $('#contact').fadeTo("slow", 1, function () {
+                            $('#error').fadeIn();
+                        });
+                    }
+                });
+            }
+        });
+
+    });
 });
