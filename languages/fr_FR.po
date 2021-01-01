@@ -1,0 +1,1745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hired v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-07-31 04:38:10+0000\n"
+"Last-Translator: robbie <robbie@modernthemes.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:28
+#, php-format
+#@ hired
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35
+#: comments.php:56
+#@ hired
+msgid "Comment navigation"
+msgstr "Navigation de commentaire"
+
+#: comments.php:72
+#@ hired
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: content-none.php:13
+#@ hired
+msgid "Nothing Found"
+msgstr "Rien trouvé"
+
+#: content-none.php:19
+#, php-format
+#@ hired
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+#@ hired
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspondait à vos termes de recherche. S'il vous plaît essayer de nouveau avec des mots clés différents."
+
+#: content-none.php:28
+#@ hired
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Il semble que nous ne pouvons pas trouver ce que vous recherchez. Peut-être la recherche peut aider."
+
+#: content-page.php:14
+#: content-single.php:12
+#@ hired
+msgid "Pages:"
+msgstr "Pages :"
+
+#: content-page.php:21
+#: inc/template-tags.php:126
+#@ hired
+msgid "Edit"
+msgstr "Edit"
+
+#: footer-home.php:21
+#: footer.php:21
+#, php-format
+#@ hired
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: functions.php:58
+#@ hired
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: functions.php:89
+#@ hired
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: functions.php:100
+#@ hired
+msgid "Drag the MT - Social Icons widget here."
+msgstr "Faites glisser le MT - widget Social Icons ici."
+
+#: functions.php:98
+#@ hired
+msgid "Social Widget Area"
+msgstr "Zone de Widget social"
+
+#: header-home.php:37
+#: header.php:37
+#@ hired
+msgid "Skip to content"
+msgstr "Passer au contenu"
+
+#: inc/customizer.php:49
+#@ hired
+msgid "Theme Colors"
+msgstr "Couleurs de thème"
+
+#: inc/customizer.php:28
+#@ hired
+msgid "Edit your general color settings."
+msgstr "Modifier vos paramètres de couleur générale."
+
+#: inc/customizer.php:36
+#@ hired
+msgid "Navigation"
+msgstr "Navigation"
+
+#: inc/customizer.php:37
+#@ hired
+msgid "Edit your theme navigation settings."
+msgstr "Modifier les paramètres de navigation de votre thème."
+
+#: inc/customizer.php:42
+#@ hired
+msgid "Navigation Settings"
+msgstr "Paramètres de navigation"
+
+#: inc/customizer.php:27
+#@ hired
+msgid "General Colors"
+msgstr "Général couleurs"
+
+#: inc/customizer.php:73
+#@ hired
+msgid "Menu Toggle Display"
+msgstr "Activer/désactiver l'affichage du menu"
+
+#: inc/customizer.php:77
+#@ hired
+msgid "Icon"
+msgstr "Icône"
+
+#: header-home.php:53
+#: header.php:53
+#: inc/customizer.php:78
+#@ hired
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/customizer.php:79
+#@ hired
+msgid "Icon and Menu"
+msgstr "Icône et Menu"
+
+#: inc/customizer.php:172
+#@ hired
+msgid "Logo and Icons"
+msgstr "Logo et icônes"
+
+#: inc/customizer.php:174
+#@ hired
+msgid "Upload a logo to replace the default site name and description in the header. Also, upload your site favicon and Apple Icons."
+msgstr "Télécharger un logo pour remplacer le nom par défaut du site et la description dans l'en-tête. En outre, télécharger votre favicon du site et des icônes d'Apple."
+
+#: inc/customizer.php:182
+#@ hired
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer.php:196
+#@ hired
+msgid "Logo Size"
+msgstr "Taille du logo"
+
+#: inc/customizer.php:197
+#@ hired
+msgid "Change the width of the Logo in PX. Only enter numeric value."
+msgstr "Modifier la largeur du Logo en PX. Seulement entrer une valeur numérique."
+
+#: inc/customizer.php:219
+#@ hired
+msgid "Upload your favicon (16x16 pixels)"
+msgstr "Télécharger votre favicon (16 x 16 pixels)"
+
+#: inc/customizer.php:239
+#@ hired
+msgid "Upload your Apple Touch Icon (144x144 pixels)"
+msgstr "Télécharger votre Apple Touch Icon (144 x 144 pixels)"
+
+#: inc/customizer.php:259
+#@ hired
+msgid "Upload your Apple Touch Icon (114x114 pixels)"
+msgstr "Télécharger votre Apple Touch Icon (114 x 114 pixels)"
+
+#: inc/customizer.php:279
+#@ hired
+msgid "Upload your Apple Touch Icon (72x72 pixels)"
+msgstr "Télécharger votre Apple Touch Icon (72 x 72 pixels)"
+
+#: inc/customizer.php:299
+#@ hired
+msgid "Upload your Apple Touch Icon (57x57 pixels)"
+msgstr "Télécharger votre Apple Touch Icon (57 x 57 pixels)"
+
+#: inc/customizer.php:434
+#@ hired
+msgid "Home Page Options"
+msgstr "Options de la Page d'accueil"
+
+#: inc/customizer.php:872
+#@ hired
+msgid "Background Color"
+msgstr "Couleur d'arrière-plan"
+
+#: inc/customizer.php:648
+#: inc/customizer.php:884
+#: inc/customizer.php:916
+#@ hired
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: inc/customizer.php:660
+#: inc/customizer.php:896
+#@ hired
+msgid "Heading Color"
+msgstr "Rubrique couleur"
+
+#: inc/customizer.php:672
+#: inc/customizer.php:928
+#@ hired
+msgid "Link Color"
+msgstr "Couleur des liens"
+
+#: inc/customizer.php:684
+#@ hired
+msgid "Link Hover Color"
+msgstr "Couleur des liens Hover"
+
+#: inc/customizer.php:996
+#@ hired
+msgid "Button Color"
+msgstr "Bouton couleur"
+
+#: inc/customizer.php:1008
+#@ hired
+msgid "Button Hover Color"
+msgstr "Bouton Hover couleur"
+
+#: inc/customizer.php:1163
+#@ hired
+msgid "Footer Options"
+msgstr "Options de pied de page"
+
+#: inc/customizer.php:1164
+#@ hired
+msgid "Edit your footer options"
+msgstr "Modifier vos options de pied de page"
+
+#: inc/customizer.php:1169
+#@ hired
+msgid "Footer"
+msgstr "Pied de page"
+
+#: inc/customizer.php:1171
+#@ hired
+msgid "Customize your footer area"
+msgstr "Personnaliser votre zone de pied de page"
+
+#: inc/customizer.php:1182
+#@ hired
+msgid "Footer Byline Text"
+msgstr "Texte de pied de page Byline"
+
+#: inc/customizer.php:1196
+#@ hired
+msgid "Hide Footer Byline"
+msgstr "Masquer le Byline de pied de page"
+
+#: inc/customizer.php:317
+#@ hired
+msgid "Social Media Icons"
+msgstr "Icônes de médias sociaux"
+
+#: inc/customizer.php:318
+#@ hired
+msgid "Edit your social media icons"
+msgstr "Modifier vos icônes de médias sociaux"
+
+#: inc/customizer.php:323
+#@ hired
+msgid "Social Media Settings"
+msgstr "Paramètres de médias sociaux"
+
+#: inc/customizer.php:341
+#@ hired
+msgid "Social Icon Size"
+msgstr "Taille des icônes sociales"
+
+#: inc/customizer.php:370
+#@ hired
+msgid "Social Icon Color"
+msgstr "Couleur de l'icône sociale"
+
+#: inc/customizer.php:382
+#@ hired
+msgid "Social Icon Hover Color"
+msgstr "Icône sociale Hover couleur"
+
+#: inc/customizer.php:940
+#@ hired
+msgid "Hover Color"
+msgstr "Couleur Hover"
+
+#: inc/customizer.php:960
+#@ hired
+msgid "Page Colors"
+msgstr "Page couleurs"
+
+#: inc/customizer.php:962
+#@ hired
+msgid "Set your page colors."
+msgstr "Définir les couleurs de votre page."
+
+#: inc/customizer.php:952
+#@ hired
+msgid "Site Title Color"
+msgstr "Couleur du titre site"
+
+#: inc/customizer.php:984
+#@ hired
+msgid "Entry Title Color"
+msgstr "Entrée titre couleur"
+
+#: inc/customizer.php:85
+#@ hired
+msgid "Navigation Colors"
+msgstr "Couleurs de navigation"
+
+#: inc/customizer.php:87
+#@ hired
+msgid "Set your theme navigation colors."
+msgstr "Définir votre thème de couleurs de navigation."
+
+#: inc/customizer.php:1023
+#@ hired
+msgid "Fonts"
+msgstr "Polices"
+
+#: inc/customizer.php:1075
+#@ hired
+msgid "Body Font Size"
+msgstr "Taille de police de corps"
+
+#: inc/customizer.php:1123
+#@ hired
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/customizer.php:696
+#@ hired
+msgid "Icon Color"
+msgstr "Couleur de l'icône"
+
+#: inc/extras.php:52
+#, php-format
+#@ hired
+msgid "Page %s"
+msgstr "Page %s"
+
+#: inc/template-tags.php:23
+#@ hired
+msgid "Posts navigation"
+msgstr "Navigation messages"
+
+#: inc/template-tags.php:27
+#@ hired
+msgid "Older posts"
+msgstr "Messages plus anciens"
+
+#: inc/template-tags.php:31
+#@ hired
+msgid "Newer posts"
+msgstr "Messages plus récents"
+
+#: inc/template-tags.php:56
+#@ hired
+msgid "Post navigation"
+msgstr "Poste navigation"
+
+#: inc/template-tags.php:86
+#, php-format
+#@ hired
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Posté le %s"
+
+#: inc/template-tags.php:91
+#, php-format
+#@ hired
+msgctxt "post author"
+msgid "by %s"
+msgstr "par %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:108
+#: inc/template-tags.php:114
+#@ hired
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:110
+#, php-format
+#@ hired
+msgid "Posted in %1$s"
+msgstr "Posté dans %1$s"
+
+#: inc/template-tags.php:116
+#, php-format
+#@ hired
+msgid "Tagged %1$s"
+msgstr "Taggé %1$s"
+
+#: inc/template-tags.php:122
+#@ hired
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: inc/template-tags.php:122
+#@ hired
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: inc/template-tags.php:122
+#@ hired
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: inc/template-tags.php:143
+#, php-format
+#@ hired
+msgid "Category: %s"
+msgstr "Catégorie : %s"
+
+#: inc/template-tags.php:145
+#, php-format
+#@ hired
+msgid "Tag: %s"
+msgstr "Tag : %s"
+
+#: inc/template-tags.php:147
+#, php-format
+#@ hired
+msgid "Author: %s"
+msgstr "Auteur : %s"
+
+#: inc/template-tags.php:149
+#, php-format
+#@ hired
+msgid "Year: %s"
+msgstr "Année : %s"
+
+#: inc/template-tags.php:149
+#@ hired
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:151
+#, php-format
+#@ hired
+msgid "Month: %s"
+msgstr "Mois : %s"
+
+#: inc/template-tags.php:151
+#@ hired
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:153
+#, php-format
+#@ hired
+msgid "Day: %s"
+msgstr "Jour : %s"
+
+#: inc/template-tags.php:153
+#@ hired
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:156
+#@ hired
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Apartés"
+
+#: inc/template-tags.php:158
+#@ hired
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galeries"
+
+#: inc/template-tags.php:160
+#@ hired
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Images"
+
+#: inc/template-tags.php:162
+#@ hired
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Vidéos"
+
+#: inc/template-tags.php:164
+#@ hired
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citations"
+
+#: inc/template-tags.php:166
+#@ hired
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Liens"
+
+#: inc/template-tags.php:168
+#@ hired
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Statuts"
+
+#: inc/template-tags.php:170
+#@ hired
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:172
+#@ hired
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chats"
+
+#: inc/template-tags.php:175
+#, php-format
+#@ hired
+msgid "Archives: %s"
+msgstr "Archives : %s"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:179
+#, php-format
+#@ hired
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:181
+#@ hired
+msgid "Archives"
+msgstr "Archives"
+
+#: panel/class-tgm-plugin-activation.php:305
+#@ tgmpa
+msgid "Install Required Plugins"
+msgstr "Installer les Plugins nécessaires"
+
+#: panel/class-tgm-plugin-activation.php:306
+#@ tgmpa
+msgid "Install Plugins"
+msgstr "Installer des Plugins"
+
+#: panel/class-tgm-plugin-activation.php:307
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin: %s"
+msgstr "Installer le Plugin : %s"
+
+#: panel/class-tgm-plugin-activation.php:310
+#, php-format
+#@ hired
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ce thème nécessite le plugin suivant : %1$s."
+msgstr[1] "Ce thème nécessite les plugins suivants : %1$s."
+
+#: panel/class-tgm-plugin-activation.php:340
+#, php-format
+#@ hired
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Les attributs requis plugin est actuellement inactive : %1$s."
+msgstr[1] "Les attributs requis plugins sont actuellement inactifs : %1$s."
+
+#: panel/class-tgm-plugin-activation.php:345
+#, php-format
+#@ hired
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Plugin est actuellement inactive a recommandé ce qui suit : %1$s."
+msgstr[1] "Plugins sont actuellement inactifs a recommandé ce qui suit : %1$s."
+
+#: panel/class-tgm-plugin-activation.php:325
+#, php-format
+#@ hired
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Le plugin suivant doit être mis à jour pour sa version la plus récente pour assurer une compatibilité maximale avec ce thème : %1$s."
+msgstr[1] "Les plugins suivants doivent être mis à jour vers leur dernière version afin d'assurer une compatibilité maximale avec ce thème : %1$s."
+
+#: panel/class-tgm-plugin-activation.php:355
+#@ hired
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Commencer l'installation du plugin"
+msgstr[1] "Commencer l'installation de plugins"
+
+#: panel/class-tgm-plugin-activation.php:365
+#@ hired
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Commencer à activer le plugin"
+msgstr[1] "Commencer l'activation des plugins"
+
+#: panel/class-tgm-plugin-activation.php:370
+#@ tgmpa
+msgid "Return to Required Plugins Installer"
+msgstr "Revenir à l'installateur de Plugins requis"
+
+#: panel/class-tgm-plugin-activation.php:371
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr "Retourner au tableau de bord"
+
+#: panel/class-tgm-plugin-activation.php:372
+#: panel/class-tgm-plugin-activation.php:3082
+#@ tgmpa
+msgid "Plugin activated successfully."
+msgstr "Plugin activé avec succès."
+
+#: panel/class-tgm-plugin-activation.php:376
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tous les plugins installé et activé avec succès. %1$s"
+
+#: panel/class-tgm-plugin-activation.php:377
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr "Rejeter cet avis"
+
+#: panel/class-tgm-plugin-activation.php:813
+#: panel/class-tgm-plugin-activation.php:3500
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr "Retourner au tableau de bord"
+
+#: panel/class-tgm-plugin-activation.php:2248
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr "Préemballés"
+
+#: panel/class-tgm-plugin-activation.php:2240
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr "WordPress référentiel"
+
+#: panel/class-tgm-plugin-activation.php:2220
+#@ tgmpa
+msgid "Required"
+msgstr "Obligatoire"
+
+#: panel/class-tgm-plugin-activation.php:2223
+#@ tgmpa
+msgid "Recommended"
+msgstr "Recommandé"
+
+#: panel/class-tgm-plugin-activation.php:2267
+#@ tgmpa
+msgid "Not Installed"
+msgstr "Pas installé"
+
+#: panel/class-tgm-plugin-activation.php:2271
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr "Installé mais non activé"
+
+#: panel/class-tgm-plugin-activation.php:2674
+#@ tgmpa
+msgid "Install"
+msgstr "Installer"
+
+#: panel/class-tgm-plugin-activation.php:2683
+#@ tgmpa
+msgid "Activate"
+msgstr "Activer"
+
+#: panel/class-tgm-plugin-activation.php:2515
+#@ tgmpa
+msgid "Plugin"
+msgstr "Plugin"
+
+#: panel/class-tgm-plugin-activation.php:2516
+#@ tgmpa
+msgid "Source"
+msgstr "Source"
+
+#: panel/class-tgm-plugin-activation.php:2517
+#@ tgmpa
+msgid "Type"
+msgstr "Type"
+
+#: panel/class-tgm-plugin-activation.php:2522
+#@ tgmpa
+msgid "Status"
+msgstr "Statut"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: panel/class-tgm-plugin-activation.php:2902
+#: panel/class-tgm-plugin-activation.php:373
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/class-tgm-plugin-activation.php:3081
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:3429
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Commence le processus d'installation et d'activation. Ce processus peut prendre un certain temps sur certains hôtes, donc s'il vous plaît être patient."
+
+#: panel/class-tgm-plugin-activation.php:3430
+#, php-format
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:3430
+#: panel/class-tgm-plugin-activation.php:3437
+#@ tgmpa
+msgid "Show Details"
+msgstr "Afficher les caractères invisibles"
+
+#: panel/class-tgm-plugin-activation.php:3430
+#: panel/class-tgm-plugin-activation.php:3437
+#@ tgmpa
+msgid "Hide Details"
+msgstr "Masquer les détails"
+
+#: panel/class-tgm-plugin-activation.php:3431
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:3432
+#, php-format
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:3436
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:3424
+#, php-format
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:3425
+#, php-format
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:3437
+#, php-format
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:3438
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr "Toutes les installations ont été terminées."
+
+#: panel/class-tgm-plugin-activation.php:3439
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: panel/theme-admin-page.php:23
+#@ hired
+msgid "Premium Plugins"
+msgstr "Premium Plugins"
+
+#: panel/theme-admin-page.php:31
+#@ hired
+msgid "Get Plugins"
+msgstr "Téléchargez les Plugins"
+
+#: panel/theme-admin-page.php:35
+#@ hired
+msgid "Documentation"
+msgstr "Documentation"
+
+#: panel/theme-admin-page.php:173
+#@ hired
+msgid "Changelog"
+msgstr "Changelog"
+
+#: panel/theme-admin-page.php:177
+#@ hired
+msgid "1.0.0 - New Theme!"
+msgstr "1.0.0 - nouveau thème !"
+
+#: search.php:12
+#, php-format
+#@ hired
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: widgets/contact-info.php:12
+#@ hired
+msgid "Display your contact info"
+msgstr "Affichez vos coordonnées"
+
+#: widgets/contact-info.php:14
+#@ hired
+msgid "MT - Contact Info Widget"
+msgstr "MT - Widget Info Contact"
+
+#: widgets/contact-info.php:52
+#: widgets/video-widget.php:49
+#@ hired
+msgid "Title"
+msgstr "Titre"
+
+#: widgets/contact-info.php:60
+#@ hired
+msgid "Enter your address"
+msgstr "Entrez votre adresse"
+
+#: widgets/contact-info.php:66
+#@ hired
+msgid "Enter your phone number"
+msgstr "Entrez votre numéro de téléphone"
+
+#: widgets/contact-info.php:72
+#@ hired
+msgid "Enter your email address"
+msgstr "Entrez votre adresse e-mail"
+
+#: widgets/contact-info.php:170
+#@ hired
+msgid "Contact info"
+msgstr "L'information de contact"
+
+#: widgets/contact-info.php:194
+#@ hired
+msgid "Address: "
+msgstr "Adresse : "
+
+#: widgets/contact-info.php:204
+#@ hired
+msgid "Phone: "
+msgstr "Téléphone : "
+
+#: widgets/contact-info.php:214
+#@ hired
+msgid "Email: "
+msgstr "Messagerie: "
+
+#: widgets/video-widget.php:13
+#@ hired
+msgid "Video for your sidebar."
+msgstr "Vidéo de votre barre latérale."
+
+#: widgets/video-widget.php:15
+#@ hired
+msgid "MT - Video Widget"
+msgstr "MT - vidéo Widget"
+
+#: widgets/video-widget.php:57
+#@ hired
+msgid "Paste the URL of the video (only from a network that supports oEmbed, like Youtube, Vimeo etc.):"
+msgstr "Collez l'URL de la vidéo (uniquement depuis un réseau qui supporte oEmbed, comme Youtube, Vimeo, etc.) :"
+
+#: widgets/video-widget.php:151
+#@ hired
+msgid "Video"
+msgstr "Vidéo"
+
+#: widgets/widget-mt-social.php:11
+#@ hired
+msgid "Drag this widget to the Social Widget Area."
+msgstr "Faites glisser ce widget à la zone de Widget Social."
+
+#: widgets/widget-mt-social.php:13
+#@ hired
+msgid "MT - Social Icons"
+msgstr "MT - icônes sociales"
+
+#: widgets/widget-mt-social.php:74
+#@ hired
+msgid "Facebook URL:"
+msgstr "Facebook URL :"
+
+#: widgets/widget-mt-social.php:84
+#@ hired
+msgid "Twitter URL:"
+msgstr "Twitter URL :"
+
+#: widgets/widget-mt-social.php:94
+#@ hired
+msgid "LinkedIn URL:"
+msgstr "LinkedIn URL :"
+
+#: widgets/widget-mt-social.php:104
+#@ hired
+msgid "Google URL:"
+msgstr "Google URL :"
+
+#: widgets/widget-mt-social.php:114
+#@ hired
+msgid "Instagram URL:"
+msgstr "Instagram URL :"
+
+#: widgets/widget-mt-social.php:124
+#@ hired
+msgid "Flickr URL:"
+msgstr "URL Flickr :"
+
+#: widgets/widget-mt-social.php:134
+#@ hired
+msgid "Pinterest URL:"
+msgstr "Pinterest URL :"
+
+#: widgets/widget-mt-social.php:144
+#@ hired
+msgid "Youtube URL:"
+msgstr "YouTube URL :"
+
+#: widgets/widget-mt-social.php:154
+#@ hired
+msgid "Vimeo URL:"
+msgstr "Vimeo URL :"
+
+#: widgets/widget-mt-social.php:164
+#@ hired
+msgid "Tumblr URL:"
+msgstr "Tumblr URL :"
+
+#: widgets/widget-mt-social.php:174
+#@ hired
+msgid "Dribbble URL:"
+msgstr "Dribbble URL :"
+
+#: widgets/widget-mt-social.php:184
+#@ hired
+msgid "RSS URL:"
+msgstr "URL DU FLUX RSS :"
+
+#: 404.php:12
+#@ hired
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups ! Cette page est introuvable."
+
+#: 404.php:23
+#@ hired
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Il semble que rien n'a été trouvé à cet endroit. Peut-être essayer une recherche ?"
+
+#: comments.php:38
+#: comments.php:59
+#@ hired
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:39
+#: comments.php:60
+#@ hired
+msgid "Newer Comments"
+msgstr "Commentaires récents"
+
+#: inc/customizer.php:97
+#@ hired
+msgid "Navigation Button Background"
+msgstr "Arrière-plan de bouton de navigation"
+
+#: inc/customizer.php:122
+#@ hired
+msgid "Navigation Button Icon"
+msgstr "Icône de bouton de navigation"
+
+#: inc/customizer.php:134
+#@ hired
+msgid "Navigation Background"
+msgstr "Historique de navigation"
+
+#: inc/customizer.php:146
+#@ hired
+msgid "Navigation Link"
+msgstr "Lien de navigation"
+
+#: inc/customizer.php:158
+#@ hired
+msgid "Navigation Link Hover"
+msgstr "Navigation Link Hover"
+
+#: inc/customizer.php:357
+#@ hired
+msgid "Social Icon Bar Color"
+msgstr "Couleur de la barre d'icônes sociales"
+
+#: inc/customizer.php:394
+#@ hired
+msgid "Social Icon Background Color"
+msgstr "Couleur d'arrière-plan icône sociale"
+
+#: inc/customizer.php:406
+#@ hired
+msgid "Social Icon Hover Background Color"
+msgstr "Couleur d'arrière-plan icône sociale Hover"
+
+#: inc/customizer.php:418
+#@ hired
+msgid "Social Icon Border Color"
+msgstr "Couleur de bordure d'icône sociale"
+
+#: inc/customizer.php:435
+#@ hired
+msgid "Edit your home page settings. Choose from any of <a href=\"http://fortawesome.github.io/Font-Awesome/cheatsheet/\" target=\"_blank\">these icons</a>. Example: \"fa-arrow-right\"."
+msgstr "Modifier les paramètres de votre page d'accueil."
+
+#: inc/customizer.php:440
+#@ hired
+msgid "Home Content"
+msgstr "Contenu Accueil"
+
+#: inc/customizer.php:442
+#@ hired
+msgid "Edit the options for the home page."
+msgstr "Modifier les options pour la page d'accueil."
+
+#: inc/customizer.php:451
+#: inc/customizer.php:830
+#@ hired
+msgid "Background Image"
+msgstr "Image de fond"
+
+#: inc/customizer.php:465
+#@ hired
+msgid "Title Text"
+msgstr "Texte du titre"
+
+#: inc/customizer.php:478
+#@ hired
+msgid "Address Text"
+msgstr "Texte de l'adresse"
+
+#: inc/customizer.php:491
+#@ hired
+msgid "Address Icon"
+msgstr "Adresse icône"
+
+#: inc/customizer.php:505
+#@ hired
+msgid "Email"
+msgstr "Messagerie"
+
+#: inc/customizer.php:518
+#@ hired
+msgid "Email Icon"
+msgstr "Icône d'email"
+
+#: inc/customizer.php:532
+#@ hired
+msgid "Phone"
+msgstr "Téléphone"
+
+#: inc/customizer.php:545
+#@ hired
+msgid "Phone Icon"
+msgstr "Icône de téléphone"
+
+#: inc/customizer.php:574
+#@ hired
+msgid "Button Two Text"
+msgstr "Texte du bouton deux"
+
+#: inc/customizer.php:588
+#@ hired
+msgid "Button Two URL"
+msgstr "Bouton deux URL"
+
+#: inc/customizer.php:603
+#@ hired
+msgid "Button Two External URL Option"
+msgstr "Bouton deux URL externe Option"
+
+#: inc/customizer.php:604
+#@ hired
+msgid "If you use an external URL, leave the Button Two URL field above empty. Must include http:// before any URL."
+msgstr "Si vous utilisez une URL externe, laissez le champ de bouton deux URL ci-dessus vide. Doit inclure http:// avant n'importe quelle URL."
+
+#: inc/customizer.php:613
+#@ hired
+msgid "Home Color Options"
+msgstr "Options de couleur maison"
+
+#: inc/customizer.php:615
+#@ hired
+msgid "Edit the color options for the home page."
+msgstr "Modifier les options de couleur pour la page d'accueil."
+
+#: inc/customizer.php:625
+#@ hired
+msgid "Home Page Background Color"
+msgstr "Couleur de fond de Page d'accueil"
+
+#: inc/customizer.php:636
+#@ hired
+msgid "Info Background Color"
+msgstr "Couleur d'arrière-plan d'informations"
+
+#: inc/customizer.php:708
+#@ hired
+msgid "First Button Color"
+msgstr "Premier bouton couleur"
+
+#: inc/customizer.php:720
+#@ hired
+msgid "First Button Text Color"
+msgstr "Premier bouton couleur du texte"
+
+#: inc/customizer.php:732
+#@ hired
+msgid "First Button Border Color"
+msgstr "Premier bouton couleur de la bordure"
+
+#: inc/customizer.php:744
+#@ hired
+msgid "First Button Hover Color"
+msgstr "Premier bouton Hover couleur"
+
+#: inc/customizer.php:757
+#@ hired
+msgid "Second Button Color"
+msgstr "Deuxième bouton couleur"
+
+#: inc/customizer.php:769
+#@ hired
+msgid "Second Button Text Color"
+msgstr "Deuxième bouton couleur du texte"
+
+#: inc/customizer.php:781
+#@ hired
+msgid "Second Button Border Color"
+msgstr "Deuxième bouton couleur de la bordure"
+
+#: inc/customizer.php:793
+#@ hired
+msgid "Second Button Hover Color"
+msgstr "Deuxième bouton Hover couleur"
+
+#: inc/customizer.php:805
+#@ hired
+msgid "Home Divider Color"
+msgstr "Diviseur maison couleur"
+
+#: inc/customizer.php:972
+#@ hired
+msgid "Page Header Background"
+msgstr "Arrière-plan de l'en-tête de page"
+
+#: inc/customizer.php:1095
+#@ hired
+msgid "Select your desired font for the headings. Montserrat is the default Heading font."
+msgstr "Sélectionnez votre police désirée pour les titres. Montserrat est la police par défaut du titre."
+
+#: inc/customizer.php:1111
+#@ hired
+msgid "Select your desired font for the body."
+msgstr "Sélectionnez votre police désirée pour le corps."
+
+#: inc/customizer.php:1134
+#@ hired
+msgid "Blog Archive Entry Background"
+msgstr "Fond d'entrée Blog Archive"
+
+#: inc/customizer.php:1146
+#@ hired
+msgid "Blog Post Content Background"
+msgstr "Billet de blog Background Content"
+
+#: panel/theme-admin-page.php:14
+#@ hired
+msgid "Hired Theme Details"
+msgstr "Hired Thème détails"
+
+#: panel/theme-admin-page.php:19
+#@ hired
+msgid "Thank you for using Hired!"
+msgstr "Merci d'utiliser Hired !"
+
+#: inc/customizer.php:109
+#@ hired
+msgid "Navigation Button Hover Background"
+msgstr "Arrière-plan de navigation bouton sensitif"
+
+#: inc/customizer.php:492
+#@ hired
+msgid "Suggested: fa-map-marker"
+msgstr "Suggéré : fa-map-marker"
+
+#: inc/customizer.php:519
+#@ hired
+msgid "Suggested: fa-comment"
+msgstr "Suggéré : fa-comment"
+
+#: inc/customizer.php:546
+#@ hired
+msgid "Suggested: fa-phone"
+msgstr "A proposé : fa-phone"
+
+#: inc/customizer.php:559
+#@ hired
+msgid "Button One Text ( About Me )"
+msgstr "Texte du bouton One (à propos de moi)"
+
+#: inc/customizer.php:560
+#@ hired
+msgid "This button links to the side About Me toggle section."
+msgstr "Section de la bascule, ce bouton liens à côté de moi."
+
+#: inc/customizer.php:575
+#@ hired
+msgid "This button should link to something like a Resume or CV."
+msgstr "Ce bouton devrait relier à quelque chose comme d &amp; acuteun CV."
+
+#: inc/customizer.php:819
+#@ hired
+msgid "Home - About Me Toggle Section"
+msgstr "Accueil - à propos de moi basculer Section"
+
+#: inc/customizer.php:821
+#@ hired
+msgid "Edit the side toggle About Me section of your home page."
+msgstr "Modifier la bascule côté About Me section de votre page d'accueil."
+
+#: inc/customizer.php:844
+#@ hired
+msgid "About Me Title"
+msgstr "À propos de moi Title"
+
+#: inc/customizer.php:857
+#@ hired
+msgid "About Me Paragraph"
+msgstr "À propos de moi le paragraphe"
+
+#: inc/customizer.php:1207
+#@ hired
+msgid "Home - Footer Text"
+msgstr "Accueil - texte de pied de page"
+
+#: inc/customizer.php:1219
+#@ hired
+msgid "Home - Footer Link"
+msgstr "Accueil - pied de page lien"
+
+#: inc/customizer.php:1231
+#@ hired
+msgid "Home - Footer Link Hover"
+msgstr "Page d'accueil - pied de page lien Hover"
+
+#: inc/customizer.php:1245
+#@ hired
+msgid "Animation Effects"
+msgstr "Effets d'animation"
+
+#: inc/customizer.php:1247
+#@ hired
+msgid "Get yourself animated or disable it."
+msgstr "Procurez-vous d'animation ou le désactiver."
+
+#: inc/customizer.php:1261
+#@ hired
+msgid "Check this box if you want to disable the animations."
+msgstr "Cochez cette case si vous souhaitez désactiver les animations."
+
+#: panel/class-tgm-plugin-activation.php:308
+#@ tgmpa
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:315
+#, php-format
+#@ hired
+msgid "First time using ModernThemes? Download our free <a href=\"http://modernthemes.net/plugins/\" target=\"_blank\">Premium Plugins</a>. We also recommend certain plugins if you desire additional functionality (like %1$s)."
+msgid_plural "First time using ModernThemes? Download our free <a href=\"http://modernthemes.net/plugins/\" target=\"_blank\">Premium Plugins</a>. We also recommend certain plugins if you desire additional functionality (like %1$s)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/class-tgm-plugin-activation.php:320
+#, php-format
+#@ hired
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/class-tgm-plugin-activation.php:330
+#, php-format
+#@ hired
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/class-tgm-plugin-activation.php:335
+#, php-format
+#@ hired
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/class-tgm-plugin-activation.php:350
+#, php-format
+#@ hired
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/class-tgm-plugin-activation.php:360
+#@ hired
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/class-tgm-plugin-activation.php:374
+#, php-format
+#@ tgmpa
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:375
+#, php-format
+#@ tgmpa
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:378
+#@ tgmpa
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:496
+#@ tgmpa
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:497
+#@ tgmpa
+msgid "Update Required"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:614
+#@ tgmpa
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:928
+#@ tgmpa
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:928
+#: panel/class-tgm-plugin-activation.php:932
+#@ tgmpa
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:932
+#@ tgmpa
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:1117
+#: panel/class-tgm-plugin-activation.php:2898
+#@ tgmpa
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:1939
+#, php-format
+#@ tgmpa
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2244
+#@ tgmpa
+msgid "External Source"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2273
+#@ tgmpa
+msgid "Active"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2279
+#@ tgmpa
+msgid "Required Update not Available"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2282
+#@ tgmpa
+msgid "Requires Update"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2285
+#@ tgmpa
+msgid "Update recommended"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2293
+#, php-format
+#@ tgmpa
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2342
+#, php-format
+#@ tgmpa
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/class-tgm-plugin-activation.php:2346
+#, php-format
+#@ tgmpa
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/class-tgm-plugin-activation.php:2350
+#, php-format
+#@ tgmpa
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/class-tgm-plugin-activation.php:2354
+#, php-format
+#@ tgmpa
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: panel/class-tgm-plugin-activation.php:2447
+#@ tgmpa
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2455
+#@ tgmpa
+msgid "Installed version:"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2463
+#@ tgmpa
+msgid "Minimum required version:"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2475
+#@ tgmpa
+msgid "Available version:"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2499
+#, php-format
+#@ tgmpa
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2521
+#@ tgmpa
+msgid "Version"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2558
+#, php-format
+#@ tgmpa
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2564
+#, php-format
+#@ tgmpa
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2570
+#, php-format
+#@ tgmpa
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2641
+#@ tgmpa
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2680
+#@ tgmpa
+msgid "Update"
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2715
+#@ tgmpa
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2717
+#@ tgmpa
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2753
+#@ tgmpa
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2755
+#@ tgmpa
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2859
+#@ tgmpa
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:2884
+#@ tgmpa
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: panel/class-tgm-plugin-activation.php:3420
+#, php-format
+#@ tgmpa
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: panel/theme-admin-page.php:43
+#@ hired
+msgid "Read Docs"
+msgstr "Lire les Docs"
+
+#: panel/theme-admin-page.php:27
+#@ hired
+msgid "Want to add more functionality to your theme? Use ModernThemes Premium Plugins to add content to your widget areas and pages."
+msgstr "Vous pouvez ajouter plus de fonctionnalités à votre thème ! ModernThemes Premium Plugins permet d'ajouter du contenu à vos pages et des zones de widget."
+
+#: panel/theme-admin-page.php:39
+#@ hired
+msgid "Check out our Hired Documentation to learn how to use Hired and for tutorials on theme functions. "
+msgstr "Consultez notre documentation embauché pour apprendre comment utiliser engagé et des tutoriels sur les fonctions de thème. "
+
+#: panel/theme-admin-page.php:47
+#@ hired
+msgid "ModernThemes"
+msgstr "ModernThemes"
+
+#: panel/theme-admin-page.php:51
+#@ hired
+msgid "Need some more themes? We have a large selection of both free and premium themes to add to your collection."
+msgstr "Besoin de quelques autres thèmes ? Nous avons un grand choix de thèmes gratuites ou payantes pour ajouter à votre collection."
+
+#: panel/theme-admin-page.php:55
+#@ hired
+msgid "Visit Us"
+msgstr "Visitez notre site"
+
+#: panel/theme-admin-page.php:60
+#@ hired
+msgid "Get the Premium Experience."
+msgstr "Téléchargez l'expérience prime."
+
+#: panel/theme-admin-page.php:64
+#: panel/theme-admin-page.php:134
+#@ hired
+msgid "Plugin Compatibility"
+msgstr "Compatibilité du plugin"
+
+#: panel/theme-admin-page.php:68
+#@ hired
+msgid "Use our new free plugins with this theme to add functionality for things like Details Spinner, Animated Skill Bars, Past Employers, Testimonials and Projects."
+msgstr "Utilisez nos nouveaux plugins gratuits avec ce thème pour ajouter des fonctionnalités pour des choses comme détails Spinner, Animated barres de compétences, employeurs passés, témoignages et projets."
+
+#: panel/theme-admin-page.php:72
+#@ hired
+msgid "About Me Page"
+msgstr "À propos de moi Page"
+
+#: panel/theme-admin-page.php:76
+#@ hired
+msgid "Instead of one small section, Hired Premium comes with an About Me page, to really show off your skills. Use our plugin compatability to add to your content."
+msgstr "Au lieu d'une petite section, embauché Premium est livré avec un propos Me page, pour vraiment montrer vos compétences. Notre compatibilité plugin permet d'ajouter à votre contenu."
+
+#: panel/theme-admin-page.php:80
+#@ hired
+msgid "Video Background"
+msgstr "Arrière-plans vidéo"
+
+#: panel/theme-admin-page.php:84
+#@ hired
+msgid "Make your Home Page a little more modern with a video background. The best looking websites give the best first impressions."
+msgstr "Faites votre Page d'accueil un peu plus moderne avec un arrière-plan vidéo. Les plus beau sites donnent les meilleures premières impressions."
+
+#: panel/theme-admin-page.php:88
+#@ hired
+msgid "Masonry Blog"
+msgstr "Blog de maçonnerie"
+
+#: panel/theme-admin-page.php:92
+#@ hired
+msgid "Have a blog and want it to look a little cooler? Hired Premium comes with a masonry blog layout to make your blog a little more interesting."
+msgstr "Avoir un blog et voulez qu'elle Regarde un peu plus frais ? Location Premium est livré avec une mise en page du blog de maçonnerie pour rendre votre blog un peu plus intéressant."
+
+#: panel/theme-admin-page.php:96
+#@ hired
+msgid "Shortcodes Ultimate Extra"
+msgstr "Shortcodes Ultimate Extra"
+
+#: panel/theme-admin-page.php:100
+#@ hired
+msgid "Hired Premium comes with a Shortcodes Ultimate Extra add-on (regularly priced at $25) for <strong>free</strong>. Shortcodes Ultimate Extra features even more of your favorite shortcodes."
+msgstr "Embauché Premium est livré avec un Add-on Shortcodes Ultimate Extra (régulièrement au prix de 25 $) pour <strong>libre</strong>. Shortcodes Ultimate bonus encore plus de vos numéros favoris courts."
+
+#: panel/theme-admin-page.php:104
+#@ hired
+msgid "Access an additional 65 Google fonts with Proper right in the WordPress customizer."
+msgstr "Accéder à des polices supplémentaires Google 65 à bon droit dans le Personnalisateur de WordPress."
+
+#: panel/theme-admin-page.php:108
+#@ hired
+msgid "PSD Files"
+msgstr "Fichiers PSD"
+
+#: panel/theme-admin-page.php:112
+#@ hired
+msgid "Premium versions include PSD files. Preview your own content or showcase a customized version for your clients."
+msgstr "Les versions Premium comprennent des fichiers PSD. Obtenir un aperçu de votre propre contenu ou mettre en valeur une version personnalisée pour vos clients."
+
+#: panel/theme-admin-page.php:116
+#@ hired
+msgid "Free Support"
+msgstr "Support gratuit"
+
+#: panel/theme-admin-page.php:120
+#@ hired
+msgid "Call on us to help you out. Premium themes come with free support that goes directly to our support staff."
+msgstr "Appelez nous pour vous dépanner. Thèmes Premium sont livrés avec support gratuit qui va directement à notre personnel de soutien."
+
+#: panel/theme-admin-page.php:124
+#@ hired
+msgid "View Premium Version"
+msgstr "Voir la Version Premium"
+
+#: panel/theme-admin-page.php:130
+#@ hired
+msgid "Premium Membership. Premium Experience."
+msgstr "Abonnement Premium. Expérience de haut de gamme."
+
+#: panel/theme-admin-page.php:138
+#@ hired
+msgid "Use our new free plugins with this theme to add functionality for things like projects, clients, team members and more. Compatible with all premium themes!"
+msgstr "Utilisez nos nouveaux plugins gratuits avec ce thème pour ajouter des fonctionnalités pour des choses comme les projets, les clients, les membres de l'équipe et plus. Compatible avec tous les thèmes premium !"
+
+#: panel/theme-admin-page.php:142
+#@ hired
+msgid "Agency Designed Themes"
+msgstr "Agence conçu thèmes"
+
+#: panel/theme-admin-page.php:146
+#@ hired
+msgid "Look as good as can be with our new premium themes. Each one is agency designed with modern styles and professional layouts."
+msgstr "Aussi bon que le regard peut être avec nos nouveaux thèmes premium. Chacun est conçu avec des styles modernes et mises en page professionnelles."
+
+#: panel/theme-admin-page.php:150
+#@ hired
+msgid "Membership Options"
+msgstr "Options d'adhésion"
+
+#: panel/theme-admin-page.php:154
+#@ hired
+msgid "We have options to fit every budget. Choose between a single theme, or access to all current and future themes for a year, or forever!"
+msgstr "Nous avons des options pour s'adapter à tous les budgets. Choisissez entre un thème unique, ou l'accès à tous les et l'avenir des thèmes pour une année, ou pour toujours !"
+
+#: panel/theme-admin-page.php:158
+#@ hired
+msgid "Access to New Themes"
+msgstr "Accès à de nouveaux thèmes"
+
+#: panel/theme-admin-page.php:162
+#@ hired
+msgid "New themes added monthly! When you purchase a premium membership you get access to all premium themes, with new themes added monthly."
+msgstr "Nouveaux thèmes ajoutés tous les mois ! Lorsque vous achetez un abonnement premium, vous avez accès à tous les thèmes premium, avec de nouveaux thèmes ajoutés tous les mois."
+
+#: panel/theme-admin-page.php:167
+#@ hired
+msgid "Get Premium Membership"
+msgstr "Obtenir l'adhésion Premium"
+
