@@ -11,15 +11,6 @@ module.exports = function (grunt) {
                 }
             },
         },
-        // concat: {
-        //     options: {
-        //         separator: ';',
-        //     },
-        //     dist: {
-        //         src: ['js/jquery.js', 'js/bootstrap.min.js', 'js/plugins.js', 'js/aos.js', 'js/jquery.form.js', 'js/jquery.validate.min.js', 'js/custom.js'],
-        //         dest: 'dist/built.js',
-        //     },
-        // },
         uglify: {
             dist: {
                 files: {
@@ -27,10 +18,16 @@ module.exports = function (grunt) {
                 }
             }
         },
+        cssmin : {
+            target : {
+                src : ['css/animate.min.css', 'css/aos.css', 'css/bootstrap.min.css', 'css/style.css', 'ionicons/css/ionicons.min.css'],
+                dest : 'dist/style.min.css'
+            },
+        },
     });
 
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
-    // grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.registerTask('default', ['htmlmin', 'uglify']);
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.registerTask('default', ['htmlmin', 'uglify', 'cssmin']);
 }
