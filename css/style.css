@@ -627,13 +627,19 @@ a.active {
     line-height: 50px;
 }
 
+/* education
+==================================================*/
+
+#education {
+    padding: 100px 0;
+    background: #f3f3f3
+}
 
 /* contact
 ==================================================*/
 
 #contact {
     padding: 100px 0;
-    background: #f3f3f3
 }
 
 #contact-form input,
