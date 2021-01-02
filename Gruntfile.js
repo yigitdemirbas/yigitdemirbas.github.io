@@ -20,7 +20,7 @@ module.exports = function (grunt) {
         },
         cssmin : {
             target : {
-                src : ['css/animate.min.css', 'css/aos.css', 'css/bootstrap.min.css', 'css/style.css', 'ionicons/css/ionicons.min.css'],
+                src : ['css/animate.min.css', 'css/aos.css', 'css/bootstrap.min.css', 'css/style.css', 'css/ionicons.min.css'],
                 dest : 'dist/style.min.css'
             },
         },
